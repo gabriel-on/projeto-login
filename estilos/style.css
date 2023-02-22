@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Paletas de Cores */
+
+:root{
+
+    --cor-0: #49a09d;
+    --cor-1: #5f2c82;
+    --cor-2: #;
+
+}
