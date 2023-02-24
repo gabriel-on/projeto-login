@@ -11,12 +11,20 @@
     <main>
         <section id="login">
             <div id="imagem">
-                
+                <img src="imagens/pexels-dinnow-9444476.jpg" alt="imagem">
             </div>
             <div id="formulario">
                 <h1>LOGIN</h1>
                 <p>Seja bem-vindo(a) novamente, faça login para acessa sua conta.</p>
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" autocomplete="on">
+                    <label for="ilogin">Login:</label>
+                    <input type="email" name="login" id="ilogin">
+                    <!--  -->
+                    <label for="isenha">Senha:</label>
+                    <input type="password" name="senha" id="isenha">
+                    <!--  -->
+                    <input type="" value="Entrar">
+                    <a href="#">Esqueci a senha</a>
                 </form>
             </div>
         </section>
