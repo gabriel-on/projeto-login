@@ -28,6 +28,12 @@ main{
     width: 100vw;
     height: 100vh;
 }
+main h1{
+    
+}
+
+main p{
+}
 
 #login{
     position: absolute;
