@@ -65,6 +65,7 @@ div#formulario > h1{
 
 div#formulario > p{
     font-size: 0.8em;
+    text-align: justify;
 }
 
 form > div.campo{
@@ -103,6 +104,7 @@ div.campo > input{
 
 div.campo > input:focus-within{
     background-color: white;
+    outline: none;
 }
 
 form > input[type=submit] {
